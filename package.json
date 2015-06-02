@@ -1,12 +1,12 @@
 {
   "name": "google-books-search-2",
-  "version": "0.1.3",
+  "version": "0.1.7",
   "description": "A node wrapper for the Google Books API. Based on the original project google-books-search.",
   "main": "./lib/google-books-search.js",
   "dependencies": {
     "bluebird": "~2.9.27",
     "extend": "",
-    "lodash": "^3.9.3",
+    "lodash": "~3.9.3",
     "querystring": ""
   },
   "devDependencies": {
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/smilledge/node-google-books-search-2"
+    "url": "https://github.com/RubenCordeiro/node-google-books-search-2"
   },
   "keywords": [
     "google-books",
     "api",
     "books"
   ],
-  "author": "Sam Milledge",
+  "author": "Ruben Cordeiro",
   "license": "MIT",
   "readmeFilename": "Readme.md"
 }
