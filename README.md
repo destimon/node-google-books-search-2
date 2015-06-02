@@ -1,4 +1,4 @@
-# node-google-books-search
+# node-google-books-search-2
 
 A lightweight node wrapper for the Google Books API.
 
@@ -14,12 +14,12 @@ Search for books matching the specified query.
 
 	var books = require('google-books-search');
 
-	books.search("Professional JavaScript for Web Developers", function(error, results) {
-		if ( ! error ) {
-			console.log(results);
-		} else {
-			console.log(error);
-		}
+	books.search("Professional JavaScript for Web Developers")
+	.then(function(results) {
+		console.log(results);
+	})
+	.catch(function(error) {
+		console.log(error);
 	});
 
 Returns an array of JSON objects. For example;
@@ -60,12 +60,12 @@ The search method optionally accepts an options object as the second argument. S
 		lang: 'en'
 	};
 
-	books.search("Professional JavaScript for Web Developers", options, function(error, results) {
-		if ( ! error ) {
-			console.log(results);
-		} else {
-			console.log(error);
-		}
+	books.search("Professional JavaScript for Web Developers", options)
+	.then(function(results) {
+		console.log(results);
+	})
+	.catch(function(error) {
+		console.log(error);
 	});
 
 ## Options
