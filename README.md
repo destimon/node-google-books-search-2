@@ -4,7 +4,7 @@ A lightweight node wrapper for the Google Books API.
 
 ## Install
 
-    npm install google-books-search
+    npm install google-books-search-2
 
 ## Basic Usage
 
