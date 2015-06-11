@@ -1,6 +1,6 @@
 # node-google-books-search-2
 
-A lightweight node wrapper for the Google Books API.
+A lightweight node wrapper for the Google Books API. Based on the original project google-books-search (https://github.com/smilledge/node-google-books-search).
 
 ## Install
 
