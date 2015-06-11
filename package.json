@@ -1,6 +1,6 @@
 {
   "name": "google-books-search-2",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A node wrapper for the Google Books API. Based on the original project google-books-search.",
   "main": "./lib/google-books-search.js",
   "dependencies": {
