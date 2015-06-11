@@ -10,9 +10,9 @@
     "querystring": ""
   },
   "devDependencies": {
-    "chai": "^3.0.0",
-    "chai-as-promised": "^5.1.0",
-    "mocha": "1.x.x",
+    "chai": "~3.0.0",
+    "chai-as-promised": "~5.1.0",
+    "mocha": "~2.2.5",
     "should": "0.6.x"
   },
   "scripts": {
