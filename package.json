@@ -10,11 +10,13 @@
     "querystring": ""
   },
   "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
     "mocha": "1.x.x",
     "should": "0.6.x"
   },
   "scripts": {
-    "test": "make test"
+    "test": "mocha --timeout 10000 --reporter spec"
   },
   "repository": {
     "type": "git",
